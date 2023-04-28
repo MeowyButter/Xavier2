@@ -1,0 +1,174 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: "emel";
+	src: url("fonts/ml.ttf");
+}			 
+@font-face {
+	font-family: "disc";
+	src: url("fonts/disc.otf");
+}
+
+body {
+	font-family: 'Eagle Light', sans-serif;
+	background: 
+		linear-gradient( 180deg, hsla(190, 20%, 30%, 0.80), hsla( 150, 43%, 15%, 0.20)),
+		url("background-image-grey.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+
+}
+
+
+/* -- Menu -------------------------*/
+.logo {
+	width: 25%;
+}
+.nav {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 12px;
+	font-size: 20px;
+	font-family: "disc";
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.nav ul li:hover{
+	background-color: gray;
+	text-decoration: underline;
+}
+.nav ul li:active {
+	background-color: rgb(255, 200, 0);
+}
+.active {
+	background-color: gray;
+}
+
+
+/* -- Pics-----------------------*/
+.pics img:hover {
+  border: 1px solid #777;
+}
+.pics {
+	width: 75%;
+	margin: 10px auto;
+}
+/* -- Skins ------*/
+.skins {
+	margin-top: 15px;
+
+	margin-left: 25px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.skins img {
+	display: block;
+	width: 100%;
+	opacity: 1;
+}
+.pic-name {
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: bold;
+}
+
+
+/* -- Icons ------*/
+.icons {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3px;
+}
+
+
+.icon-name {
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: bold;
+}
+
+/* -- Skills ------*/
+.icons2 {
+	margin-top: 15px;
+
+	margin-left: 25px;
+	width: 40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.icons2 img {
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.icon2-name {
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: bold;
+}
+
+/* -- JJK ------*/
+.jjk_logo {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 12%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 30px;
+}
+
+.jjk_logo-name {
+	padding: 5px;
+	font-size: 15px;
+	text-decoration: bold;
+}
+
+.icon-var {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.jjk-name {
+	padding: 5px;
+	font-size: 15px;
+	text-align: left;
+	text-decoration: bold;
+}
+
+.icon-var2 {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}

@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: "emel";
+	src: url("fonts/ml.ttf");
+}			 
+@font-face {
+	font-family: "disc";
+	src: url("fonts/disc.otf");
+}
+
+body {
+	font-family: 'Eagle Light', sans-serif;
+	background: 
+		linear-gradient( 180deg, hsla(205, 65%, 30%, 0.60), hsla(160, 75%, 15%, 0.20)),
+		url("background-image-grey.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+
+/* -- Menu -------------------------*/
+.logo {
+	width: 25%;
+}
+.nav {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 12px;
+	font-size: 20px;
+	font-family: "disc";
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.nav ul li:hover{
+	background-color: gray;
+	text-decoration: underline;
+}
+.nav ul li:active {
+	background-color: rgb(255, 200, 0);
+}
+.active {
+	background-color: gray;
+}
+
+/*HOME*/
+/* -- Intro ------------------------- */
+.character-image {
+	float: left;
+    margin-right: 20px;
+	margin-top: -10px;
+	max-height: 340px;
+}
+.intro {
+	line-height: 20px;
+	text-align: justify; 
+}
+.content {
+	width: 75%;
+	margin: 10px auto;
+}
+.intro p {
+	text-indent: 50px;
+}
+
+.intro h1 {
+	font-size: 40px;
+	font-family: "disc";
+}
+.intro table {
+	text-indent: 25px;
+}
+
+.cats {
+	width: 200px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.rs {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 75%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.rs img {
+	display: block;
+	width: 74%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px lightgray;
+	opacity: 0.6;
+}
+.rs-name {
+	padding: 5px;
+	font-size: 15px;
+	text-decoration: bold;
+	opacity: 0.8;
+}
+
+.rs img:hover {
+	opacity: 1;
+	width: 74%;
+	box-shadow: 2px 2px 3px rgb(255, 200, 0);
+}
+
+
+
+
+/* -- Story ------------------------- */
+.story {
+	line-height: 20px;
+	text-align: justify; 
+}
+.story p {
+	text-indent: 50px;
+	margin-top: 22px;
+}
+.story img {
+	width: 40%;
+}
+.story-img1 {
+	float: right;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+.story-img2 {
+	float: left;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+.story-img3 {
+	float: right;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.story iframe {
+	float: left;
+	margin-right: 20px;
+	margin-top: 25px;
+}

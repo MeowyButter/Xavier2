@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: "emel";
+	src: url("fonts/ml.ttf");
+}			 
+@font-face {
+	font-family: "disc";
+	src: url("fonts/disc.otf");
+}
+
+body {
+	font-family: 'Eagle Light', sans-serif;
+	background: 
+		linear-gradient( 180deg, hsla(220, 30%, 31%, 0.60), hsla(219, 15%, 30%, 0.30)),
+		url("background-image-grey.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+
+/* -- Menu -------------------------*/
+.logo {
+	width: 25%;
+}
+.nav {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 12px;
+	font-size: 20px;
+	font-family: "disc";
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.nav ul li:hover{
+	background-color: gray;
+	text-decoration: underline;
+}
+.nav ul li:active {
+	background-color: rgb(255, 200, 0);
+}
+.active {
+	background-color: gray;
+}
+
+
+/* -- Skills -----------------------*/
+h1 {
+	font-size: 40px;
+	font-family: "disc";
+}
+
+.skills {
+	width: 75%;
+	margin: 10px auto;
+}
+
+.skill-name {
+	float: left;
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.skill-name img {
+	width: 120px;
+	margin: 15px;
+}
+
+.skill-disc {
+	text-align: justify;
+	margin-top: 50px;
+	width: 100%;
+	text-indent: 70px;
+}
+
+.skill-disc table {
+	margin-top: 20px;
+	border-collapse: collapse;
+	width: 75%;
+}
+
+.skill-disc th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+.skill-disc tr:nth-child(even) {
+	background-color: hsla(0, 0%, 50%, 0.48);
+}
+
+button {
+	padding: 4px 5px 4px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: gray;
+}

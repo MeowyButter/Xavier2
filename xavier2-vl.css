@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: "emel";
+	src: url("fonts/ml.ttf");
+}			 
+@font-face {
+	font-family: "disc";
+	src: url("fonts/disc.otf");
+}
+
+body {
+	font-family: 'Eagle Light', sans-serif;
+	background: 
+		linear-gradient( 180deg, hsla(190, 31%, 30%, 0.80), hsla(193, 43%, 15%, 0.20)),
+		url("background-image-grey.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+
+/* -- Menu -------------------------*/
+.logo {
+	width: 25%;
+}
+.nav {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 12px;
+	font-size: 20px;
+	font-family: "disc";
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.nav ul li:hover{
+	background-color: gray;
+	text-decoration: underline;
+}
+.nav ul li:active {
+	background-color: rgb(255, 200, 0);
+}
+.active {
+	background-color: gray;
+}
+
+
+/* -- Skills -----------------------*/
+.lines {
+	width: 75%;
+	margin: 10px auto;
+}
+
+h3 {
+	margin-top: 25px;
+	text-indent: 25px;
+}
+
+h2 {
+	margin-top: 15px;
+	
+}
+#voicelines {
+	margin-top: 10px;
+	text-indent: 50px;
+	line-height: 25px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: "disc";
+}

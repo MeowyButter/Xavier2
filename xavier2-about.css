@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: "emel";
+	src: url("fonts/ml.ttf");
+}			 
+@font-face {
+	font-family: "disc";
+	src: url("fonts/disc.otf");
+}
+
+body {
+	font-family: 'Eagle Light', sans-serif;
+	background: 
+		linear-gradient( 180deg, hsla(180, 7.5%, 19%, 1.0), hsla(180, 26%, 25%, 0.20)),
+		url("background-image-grey.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+
+/* -- Menu -------------------------*/
+.logo {
+	width: 25%;
+}
+.nav {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 12px;
+	font-size: 20px;
+	font-family: "disc";
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.nav ul li:hover{
+	background-color: gray;
+	text-decoration: underline;
+}
+.nav ul li:active {
+	background-color: rgb(255, 200, 0);
+}
+.active {
+	background-color: gray;
+}
+
+
+/* -- Skills -----------------------*/
+	
+.info {
+	width: 75%;
+	margin: 10px auto;
+}
+
+.info img {
+	max-height: 350px;
+	float: left;
+    margin-right: 20px;
+	border-radius: 50%;
+}
+
+.info h1 {
+	font-size: 40px;
+	font-family: "disc";
+}
+
+#me h1 img{
+	text-indent: 25px;
+}
+
+#me p {
+	line-height: 20px;
+	text-indent: 40px;
+}
+
+.rs {
+	margin-top: 10px;
+	width: 15%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 0px;
+	
+}
+
+.rs img {
+	border-radius: 50%;
+	width: 50px;
+}
