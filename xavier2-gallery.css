@@ -116,14 +116,9 @@ body {
 	width: 40%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 30px;
+	grid-gap: 3px;
 }
 
-.icons2 img {
-	display: block;
-	width: 100%;
-	border-radius: 50%;
-}
 
 .icon2-name {
 	padding: 5px;
@@ -139,7 +134,7 @@ body {
 	width: 12%;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 30px;
+	grid-gap: 3px;
 }
 
 .jjk_logo-name {
@@ -154,7 +149,7 @@ body {
 	width: 40%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 30px;
+	grid-gap: 3px;
 }
 
 .jjk-name {
@@ -170,5 +165,5 @@ body {
 	width: 40%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 30px;
+	grid-gap: 3px;
 }
